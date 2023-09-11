@@ -39,7 +39,7 @@
                         <label class="me-3">Original Price : <s>{{ $products->original_price }} บาท</s></label>
                         <label class="fw-bold">Selling Price : {{ $products->selling_price }} บาท</label>
                         <p class="mt-3">
-                            {{--  //{{!! $products->small_description !!}} --}}
+                            {{-- test up {{!! $products->small_description !!}} --}}
                         </p>
                         <hr>
                         @if ($products->qty > 0)
